@@ -1,10 +1,14 @@
 //Import React Module to allow JSX manipulation
 import React from "react";
 //-------------------------------------------------------------------
+//Import Login Component:
+import Input from "./Input";
+//-------------------------------------------------------------------
+
 function Login() {
   return (
     <form className="form">
-      <input type="text" placeholder="Username" />
+      <Input />
       <input type="password" placeholder="Password" />
       <button type="submit">Login</button>
     </form>
