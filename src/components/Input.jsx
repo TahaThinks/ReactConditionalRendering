@@ -2,8 +2,8 @@
 import React from "react";
 //---------------------------------------------------------------------
 
-function Input() {
-  return <input type="text" placeholder="Username" />;
+function Input(props) {
+  return <input type={props.textName} placeholder={props.placeholderName} />;
 }
 
 //Export Input Component to bre used by Login.jsx

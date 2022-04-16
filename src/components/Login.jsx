@@ -8,8 +8,8 @@ import Input from "./Input";
 function Login() {
   return (
     <form className="form">
-      <Input />
-      <input type="password" placeholder="Password" />
+      <Input typeName="text" placeholderName="Username" />
+      <Input typeName="password" placeholderName="Password" />
       <button type="submit">Login</button>
     </form>
   );
