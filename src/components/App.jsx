@@ -1,18 +1,17 @@
+//Import React module for JSX manipulation
 import React from "react";
+//---------------------------------------------------------------------
+//Import App & Input Components
+import Login from "./Login";
+//---------------------------------------------------------------------
 
-var isLoggedin = true;
+var isLoggedin = false;
 
 function renderConditionally() {
   if (isLoggedin) {
     return <h1>Hello</h1>;
   } else {
-    return (
-      <form className="form">
-        <input type="text" placeholder="Username" />
-        <input type="password" placeholder="Password" />
-        <button type="submit">Login</button>
-      </form>
-    );
+    return <Login />;
   }
 }
 
