@@ -9,9 +9,10 @@ var isLoggedin = true;
 
 function App() {
   return (
-    <div className="container">{isLoggedin ? <h1>Hello</h1> : <Login />}</div>
+    <div className="container"> {isLoggedin ? <h1>Hello</h1> : <Login />}</div>
   );
 }
 //---------------------------------------------------------------------
+
 //Export App component to be used by the index.js
 export default App;
