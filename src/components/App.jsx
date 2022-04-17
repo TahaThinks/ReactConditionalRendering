@@ -12,5 +12,6 @@ function App() {
     <div className="container">{isLoggedin ? <h1>Hello</h1> : <Login />}</div>
   );
 }
-
+//---------------------------------------------------------------------
+//Export App component to be used by the index.js
 export default App;
